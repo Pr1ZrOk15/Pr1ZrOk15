@@ -1,0 +1,98 @@
+/* Core style */
+:root{
+    --green: #21bf73;
+}
+::selection{
+    background-color: #23d3d3;
+    color: white;
+}
+.card-title{
+    color: #30363d;
+    font-weight: 700;
+}
+html{
+    scroll-behavior: smooth;
+}
+/* home style */
+.home{
+    background-color: #f0f5f9;
+    padding: 100px 0;
+}
+.about h6{
+    color: var(--green);
+}
+#about-box{
+    background-color: #fff;
+}
+#about-box{
+    background-color: #fff2e5 !important;
+}
+.card{
+    background: #f8f9fa !important;
+}
+.card img{
+    width: 80px;
+}
+/* box style */
+.box  p{
+    font-weight: 500;
+}
+.box  h2{
+    font-weight: 700;
+}
+/* pricing style */
+.pricing .container{
+    background-color: #f0f5f9;
+    padding: 40px;
+}
+/* faq style */
+.faq h3{
+    font-size: 40px;
+}
+/* acardion style */
+.acardion .container{
+    background-color: #f0f5f9;
+    padding: 100px;
+}
+/* trail style */
+.trail .texts p{
+    color: #21bf73;
+    font-weight: 500;
+}
+.texts input {
+    width: 350px;
+    background-color: #f0f5f9;
+    border: none;
+}
+.texts button{
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    font-size: 15px;
+    background-color: #21bf73;
+}
+/* connect */
+footer{
+    background-color: #f0f5f9;
+    padding: 20px;
+}
+footer .logo a{
+    font-size: 20px;
+    letter-spacing: 4px;
+    color: #21bf73;
+    text-decoration: none;
+}
+/* Footer style */
+footer ul{
+    list-style: none;
+}
+footer ul li{
+    padding-left: 20px;
+}
+footer a{
+    color: #646464;
+    text-decoration: none;
+}
+.icons i{
+    padding-left: 20px;
+    color: #21bf73;
+}

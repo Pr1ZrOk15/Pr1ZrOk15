@@ -1,0 +1,196 @@
+/* asoai stele */
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+    list-style: none;
+}
+.container{
+    width: 1140px;
+    margin: 0 auto;
+}
+/* hedir stele */
+.header{
+    padding: 20px 0;
+    box-shadow: o 1px 16px 0 rgb(0 0 0 /10%);
+}
+.header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between  ;
+}
+.header ul li{
+    display: inline-block;
+    padding: 0 10px;
+}
+.nav a{
+    font-size: 12px;
+    color: #05364d;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.header .aktiv{
+    color: #efb6df;
+}
+.nav ul a:hover{
+    color: #efb6df;
+}
+.main-section img{
+    margin-left: 180%;
+    /* margin-bottom: 1000px; */
+    background-image: url(img/main-banner.png);
+}
+.main-section_info{
+    margin-top: 15px;
+}
+.main-section h1{
+    font-size: 23px;
+    font-weight: 200;
+    color: #797979;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    border-top: 100px;
+}
+.btn{
+    background: linear-gradient(to right,#1345e6 0%, #ed239f 51%, #1345e6 100% );
+    border-radius: 5px;
+    font-size: 14px;
+    color: #fff;
+    padding: 17px 30px;
+    cursor: pointer;
+    border: none;
+    text-transform: uppercase;
+}
+.container .section{
+    display: flex;                                  
+    margin-top: 150px;
+}
+.statistibe-item {
+    margin: 0 50px;
+    background: ghostwhite;
+    margin: 0 0 20px 30px;
+    text-align: center;
+    padding: 20px;
+}
+.statistibe-item h3{
+    background: linear-gradient(right,#1345e6);
+}
+
+.container .right p{
+    color: silver;
+}
+.btn{
+    margin-top: 15px;
+}
+.container .boxes{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;         
+}
+.container .box{
+    background-color: silver;
+    margin-right: 3%;
+    padding: 60px 30px;
+}
+.box {
+    margin-top: 10%;
+}
+.portfolio .boxes h4{
+    margin-top: 15%;   
+}
+.portfolio .boxes p {
+    margin-top: 30px;
+}
+.container .box:hover{
+    color: #fff;
+    background   : #5f30ff;
+    transition: 0.5s  linear ;
+}
+.about-me {
+    display: flex;
+    align-items: center;
+}
+.container .left{
+    margin-right: 10%;
+}
+.btn a{
+    color: #fff;
+}
+.container{
+    display: flex;
+}
+.cliont{
+    padding: 100px 0;
+}
+.cliont ul li{
+    margin-top: 50px;
+    display: flex;align-items: center;
+    justify-content: space-between;
+    padding-right: 29px;
+    margin-top: 40px;
+    text-transform: uppercase;
+}
+.cliont ul li a{
+    display: flex;
+    color: #797979;
+}
+.big-box{
+    display: flex;
+    margin-left: 50px;
+}
+.right{
+    margin-left: 3%;
+}
+.right > img{
+    width: 100%;
+}
+.right .box-img{
+    width: 100%;
+    height: 338%;
+    block-size: 100% 100%;
+}
+.blog{
+    padding: 100px 0;
+    margin: 20;
+}
+.blog .blog-big_box{
+    display: flex;
+    justify-content: space-between;
+}
+.big-box .right{
+    width: 36%;
+}
+.container .blog{
+    display: flex;
+}
+.container .blog-big_box{
+    display: flex;
+    justify-content: space-between;
+}
+.frents .container{
+    align-items: center;
+    justify-content: space-between;
+}
+.blog .blog-box {
+    width: 33%;
+    margin-left: 4%;
+}
+.blog .card{
+    margin-top: 8%;
+}
+footer{
+    background-color: #000;
+    justify-content: center;
+    display: flex;
+    color: #fff;
+}
+.container{
+    justify-content: center;
+    display: flex;
+}
+ul{
+    justify-content: center;
+    display: flex;
+}
